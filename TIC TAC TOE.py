@@ -17,14 +17,14 @@ pygame.display.set_caption('TIC TAC TOE')#title
 
 #background/pictures
 
-grid = pygame.image.load("Grid.png")
-O = pygame.image.load("O.png")
-X = pygame.image.load("X.png")
-menu = pygame.image.load("Menu.png")
-error_indication = pygame.image.load("Error_indication.png")
+grid = pygame.image.load("Resources/Grid.png")
+O = pygame.image.load("Resources/O.png")
+X = pygame.image.load("Resources/X.png")
+menu = pygame.image.load("Resources/Menu.png")
+error_indication = pygame.image.load("Resources/Error_indication.png")
 
-won = pygame.image.load("won.png")
-draw = pygame.image.load("draw.png")
+won = pygame.image.load("Resources/won.png")
+draw = pygame.image.load("Resources/draw.png")
 #menu
 menu_apperance = True
 
